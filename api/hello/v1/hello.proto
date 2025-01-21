@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package hello.v1;
+option go_package = "hello/v1";
+
+message Req {
+	string msg = 1;
+}
+message Res {
+	string name = 1;
+}
+service HelloService {
+	rpc Hello(Req) returns(Res){
+
+	};
+}
