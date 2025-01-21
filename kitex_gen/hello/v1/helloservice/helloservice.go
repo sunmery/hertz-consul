@@ -9,7 +9,7 @@ import (
 	kitex "github.com/cloudwego/kitex/pkg/serviceinfo"
 	streaming "github.com/cloudwego/kitex/pkg/streaming"
 	proto "google.golang.org/protobuf/proto"
-	v1 "hertz-consul/kitex_gen/hello/v1"
+	v1 "github.com/sunmery/hertz-consul/kitex_gen/hello/v1"
 )
 
 var errInvalidMessageType = errors.New("invalid message type for service method handler")

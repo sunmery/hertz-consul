@@ -4,7 +4,7 @@ package helloservice
 
 import (
 	server "github.com/cloudwego/kitex/server"
-	v1 "hertz-consul/kitex_gen/hello/v1"
+	v1 "github.com/sunmery/hertz-consul/kitex_gen/hello/v1"
 )
 
 // NewInvoker creates a server.Invoker with the given handler and options.

@@ -11,10 +11,10 @@ import (
 	consulapi "github.com/hashicorp/consul/api"
 	kitexlogrus "github.com/kitex-contrib/obs-opentelemetry/logging/logrus"
 	consul "github.com/kitex-contrib/registry-consul"
+	"github.com/sunmery/hertz-consul/conf"
+	"github.com/sunmery/hertz-consul/kitex_gen/hello/v1/helloservice"
 	"go.uber.org/zap/zapcore"
 	"gopkg.in/natefinch/lumberjack.v2"
-	"hertz-consul/conf"
-	"hertz-consul/kitex_gen/hello/v1/helloservice"
 )
 
 func main() {

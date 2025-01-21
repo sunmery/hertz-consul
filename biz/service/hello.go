@@ -2,7 +2,7 @@ package service
 
 import (
 	"context"
-	v1 "hertz-consul/kitex_gen/hello/v1"
+	v1 "github.com/sunmery/hertz-consul/kitex_gen/hello/v1"
 )
 
 type HelloService struct {

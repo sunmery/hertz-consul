@@ -2,8 +2,8 @@ package main
 
 import (
 	"context"
-	v1 "hertz-consul/kitex_gen/hello/v1"
-	"hertz-consul/biz/service"
+	"github.com/sunmery/hertz-consul/biz/service"
+	v1 "github.com/sunmery/hertz-consul/kitex_gen/hello/v1"
 )
 
 // HelloServiceImpl implements the last service interface defined in the IDL.

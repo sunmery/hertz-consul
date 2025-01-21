@@ -1,4 +1,4 @@
-module hertz-consul
+module github.com/sunmery/hertz-consul
 
 go 1.23.4
 

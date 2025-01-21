@@ -4,7 +4,7 @@ import (
 	"context"
 
 	"github.com/redis/go-redis/v9"
-	"hertz-consul/conf"
+	"github.com/sunmery/hertz-consul/conf"
 )
 
 var (

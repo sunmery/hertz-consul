@@ -1,8 +1,8 @@
 package dal
 
 import (
-	"hertz-consul/biz/dal/mysql"
-	"hertz-consul/biz/dal/redis"
+	"github.com/sunmery/hertz-consul/biz/dal/mysql"
+	"github.com/sunmery/hertz-consul/biz/dal/redis"
 )
 
 func Init() {

@@ -2,8 +2,8 @@ package service
 
 import (
 	"context"
+	v1 "github.com/sunmery/hertz-consul/kitex_gen/hello/v1"
 	"testing"
-	v1 "hertz-consul/kitex_gen/hello/v1"
 )
 
 func TestHello_Run(t *testing.T) {
